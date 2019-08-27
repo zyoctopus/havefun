@@ -23,6 +23,7 @@ def getNovelUrlListById(content, keyword=''):
     
     if(len(urlList) > 0):
         print('获取小说章节地址成功')
+        print('一共' + str(len(urlList) + 1) + '章')
     else:
         print('获取小说章节地址失败')
 
